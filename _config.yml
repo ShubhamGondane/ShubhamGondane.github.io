@@ -87,8 +87,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: My writings # blog_name will be displayed in your blog page
+blog_description: A blog about my data and things I find interesting # blog_description will be displayed in your blog page
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -188,6 +188,10 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _pages/repositories.md
+  - _pages/teaching.md
+  - _pages/cv.md
+  - _pages/profiles.md
   - purgecss.config.js
   - README.md
   - readme_preview/
