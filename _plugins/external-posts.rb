@@ -27,6 +27,7 @@ module ExternalPosts
       return if xml.nil?
       if xml.include?('<!DOCTYPE html>')
         xml = File.read('./substack.rss')
+      end
       feed = Feedjira.parse(xml)
       process_entries(site, src, feed.entries)
     end
