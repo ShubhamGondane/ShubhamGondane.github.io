@@ -41,6 +41,28 @@ ninja.data = [{
           window.open("https://blog.det.life/from-siloed-systems-to-unified-platforms-exploring-the-lakehouse-revolution-7b590042e3fc?source=rss-b2864b4119c4------2", "_blank");
         
       },
+    },{id: "post-cost-optimization-part-2",
+      
+        title: 'Cost Optimization Part 2 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "Take your Spark pipelines to the next level! Dive into advanced optimization techniques for faster processing and reduced costs.",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://shubhamgondane.substack.com/p/cost-optimization-part-2", "_blank");
+        
+      },
+    },{id: "post-data-engineering-cost-optimization-part-1",
+      
+        title: 'Data Engineering: Cost Optimization Part 1 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "Learn how to manage ETL costs by optimizing your spark jobs.",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://shubhamgondane.substack.com/p/data-engineering-cost-optimization", "_blank");
+        
+      },
     },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
