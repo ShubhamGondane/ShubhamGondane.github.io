@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
@@ -26,9 +26,10 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
 :warning: This site is currently under construction :warning:. Links may break
 
-I’m Shubham Gondane, a data engineer and writer. My initial 'data migration' was from India to Silicon Valley. Turns out, the latency between curry and California burritos is significant. Still optimizing that. 
+I’m Shubham Gondane, a data engineer and writer. My initial 'data migration' was from India to Silicon Valley. Turns out, the latency between curry and California burritos is significant. Still optimizing that.
 Sharing insights and experiences through writing on data engineering.
 
 I enjoy learning about fun technical challenges and collaborating with great teams. Reach out if you want to find a way to work together!
