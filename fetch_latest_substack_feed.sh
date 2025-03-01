@@ -1,0 +1,1 @@
+curl https://shubhamgondane.substack.com/feed > substack.rss
