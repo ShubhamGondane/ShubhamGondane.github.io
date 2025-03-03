@@ -17,19 +17,13 @@ thumbnail: assets/img/2025-02-03_the_coming_wave/the_coming_wave_book.jpeg
     <a href="https://a.co/d/4Qwlzob">The Coming Wave by Mustafa Suleyman and Michael Bhaskar</a>
 </div>
 
-<!-- <p align="center">
-    <img src="../assets/img/2025-02-03_the_coming_wave/the_coming_wave_book.jpeg" alt="The Coming Wave">
-    <br>
-    <em><a href="https://a.co/d/4Qwlzob">The Coming Wave by Mustafa Suleyman and Michael Bhaskar</a></em>
-</p> -->
-
 I recently finished **The Coming Wave** by Mustafa Suleyman and Michael Bhaskar, and I’d like to share some of my thoughts, particularly on the topic of AI. The book explores the four transformative forces of the coming wave: **Artificial Intelligence, Synthetic Biology, Quantum Computing**, and emerging energy sources like **Nuclear Fusion**. AI and quantum computing are dominating the conversation these days, with new LLM models being launched almost weekly and major tech giants like Amazon, Microsoft, and Google unveiling groundbreaking research in quantum computing.
 
 So far, we’ve experienced 24 major waves of innovation. Over a span of 10,000 years up until 1000 BCE, 7 general-purpose technologies emerged. Between 1700 and 1900, there were 6 waves, ranging from the steam engine to electricity. In the past 100 years alone, we’ve seen 7 new waves, from airplanes to nuclear power.
 
 ### The characteristics of the coming wave technologies
 
-**1. New technology has a potential to scale assymetrically.**
+#### 1. New technology has a potential to scale assymetrically.
 
 - 1 Tweet -> Can spread an idea globally in an instant.
 - 1 Startup -> Just one breakthrough algorithm can build a massive global company.
@@ -37,10 +31,12 @@ So far, we’ve experienced 24 major waves of innovation. Over a span of 10,000 
 - 1 Bio experiment -> Could unleash a new pathogen, sparking a pandemic.
 - 1 Viable quantum computer -> Has the power to render all encryption protocols obsolete.
 
-**2. Hyper Evolution**
+#### 2. Hyper Evolution
+
 These technologies are evolving rapidly and its difficult to contain these and their impact is global.
 
-**3. Omni Use**
+#### 3. Omni Use
+
 These technologies have a broad spectrum of use cases, regardless of their original intentions and overtime the uses tend towards generality.
 
 <div class="row">
@@ -49,7 +45,8 @@ These technologies have a broad spectrum of use cases, regardless of their origi
     </div>
 </div>
 
-**4. Autonomy**
+#### 4. Autonomy
+
 Every iteration of these technologies make them more autonomous.
 
 ### Unstoppable incentives
@@ -86,13 +83,6 @@ The pursuit of Artificial General Intelligence (AGI) mirrors evolution's iterati
 
 The gap between claims of approaching AGI and the demonstrable limitations of current LLMs is evident in examples like their [inability to accurately count letters](https://www.reddit.com/r/OpenAI/comments/1haxhjk/can_someone_explain_exactly_why_llms_fail_at/) or [perform basic number comparisons](https://www.reddit.com/r/singularity/comments/1e4fcxm/none_of_current_llms_can_truly_reason_and_cannot/).
 Even the GOAT, Karpathy, highlights these limitations in his latest YouTube video - [Deep Dive into LLMs like ChatGPT](https:/www.youtube.com/watch?v=7xTGNNLPyMI&t=7271s).
-
-<!-- <p align=center>
-<img src="../assets/img/2025-02-03_the_coming_wave/strawberry_fail.png" alt="The Coming Wave">
-    <br>
-    <em>Even latest models such as Gemini 2.0 fail</em>
-</img>
-</p> -->
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
