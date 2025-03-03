@@ -63,6 +63,17 @@ ninja.data = [{
           window.open("https://shubhamgondane.substack.com/p/data-engineering-cost-optimization", "_blank");
         
       },
+    },{id: "post-a-post-with-formatting-and-links",
+      
+        title: "a post with formatting and links",
+      
+      description: "march &amp; april, looking forward to summer",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2015/formatting-and-links/";
+        
+      },
     },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
