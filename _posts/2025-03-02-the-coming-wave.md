@@ -3,18 +3,18 @@ layout: post
 title: Thoughts on the book - The Coming Wave
 date: 2025-03-04 06:00:00
 description: Thoughts on the book - The Coming Wave
-tags: AI
+tags: ai
 categories: book-reviews
 thumbnail: assets/img/2025-02-03_the_coming_wave/the_coming_wave_book.jpeg
 ---
 
 # The Dilemma of Progress: Reflecting on The Coming Wave
 
-<p align="center">
+<!-- <p align="center">
     <img src="../assets/img/2025-02-03_the_coming_wave/the_coming_wave_book.jpeg" alt="The Coming Wave">
     <br>
     <em><a href="https://a.co/d/4Qwlzob">The Coming Wave by Mustafa Suleyman and Michael Bhaskar</a></em>
-</p>
+</p> -->
 
 I recently finished **The Coming Wave** by Mustafa Suleyman and Michael Bhaskar, and I’d like to share some of my thoughts, particularly on the topic of AI. The book explores the four transformative forces of the coming wave: **Artificial Intelligence, Synthetic Biology, Quantum Computing**, and emerging energy sources like **Nuclear Fusion**. AI and quantum computing are dominating the conversation these days, with new LLM models being launched almost weekly and major tech giants like Amazon, Microsoft, and Google unveiling groundbreaking research in quantum computing.
 
@@ -36,11 +36,11 @@ So far, we’ve experienced 24 major waves of innovation. Over a span of 10,000 
 3.  **Omni Use**
     These technologies have a broad spectrum of use cases, regardless of their original intentions and overtime the uses tend towards generality.
 
-<p align=center>
+<!-- <p align=center>
 <img src="../assets/img/2025-02-03_the_coming_wave/Use%20case%20spectrum.png" alt="Use case spectrum">
 <br>
 </img>
-</p>
+</p> -->
 
 4. **Autonomy**
    Every iteration of these technologies make them more autonomous.
@@ -80,12 +80,12 @@ The pursuit of Artificial General Intelligence (AGI) mirrors evolution's iterati
 The gap between claims of approaching AGI and the demonstrable limitations of current LLMs is evident in examples like their [inability to accurately count letters](https://www.reddit.com/r/OpenAI/comments/1haxhjk/can_someone_explain_exactly_why_llms_fail_at/) or [perform basic number comparisons](https://www.reddit.com/r/singularity/comments/1e4fcxm/none_of_current_llms_can_truly_reason_and_cannot/).
 Even the GOAT, Karpathy, highlights these limitations in his latest YouTube video - [Deep Dive into LLMs like ChatGPT](https:/www.youtube.com/watch?v=7xTGNNLPyMI&t=7271s).
 
-<p align=center>
+<!-- <p align=center>
 <img src="../assets/img/2025-02-03_the_coming_wave/strawberry_fail.png" alt="The Coming Wave">
     <br>
     <em>Even latest models such as Gemini 2.0 fail</em>
 </img>
-</p>
+</p> -->
 
 I feel that companies are incentivized to say AGI is here or close to raise funding or to justify the billions of $ spent in capital expenditure as they chase bigger and bigger models.
 
@@ -115,11 +115,11 @@ As AI continues to integrate into both software and genetic engineering, the lin
 
 Suleyman's **containment plan for the coming wave of technological challenges** offers a thorough, multi-faceted strategy for managing potentially disruptive technologies such as AI and biotechnology. This is a highly complex subject that warrants a dedicated post of its own. This is in itself a very complex topic that deserves a separate post on its own. For now, the visual below offers a broad overview of the key elements of the containment plan, which will be explored in greater detail later.
 
-<p align=center>
+<!-- <p align=center>
 <img src="../assets/img/2025-02-03_the_coming_wave/The%20Containment%20Plan.png" alt="Containment plan">
 <br>
 </img>
-</p>
+</p> -->
 
 Ultimately, **The Coming Wave** paints a stark, yet vital, picture of the technological future we're hurtling towards. As Mustafa Suleyman argues, the characteristics of these powerful technologies, coupled with the relentless incentives driving their development, particularly evident in the rapid evolution of AI, present us with unprecedented challenges. While the potential benefits are undeniable, the risks—the erosion of control, the potential for misuse, and the sheer scale of societal disruption—cannot be ignored. **The Containment Plan** offers a framework for navigating this turbulent landscape, but its success hinges on a collective commitment to proactive governance, ethical development, and a fundamental shift in how we perceive and manage technological progress. **Frankly, given the current geopolitical climate and the disparate motivations of those driving technological advancement, this level of unified, proactive action feels like a monumental, perhaps even impossible, undertaking**. Yet, the wave is coming, and whether it washes over us or carries us forward depends entirely on the choices we make today. The conversation, and more importantly, the action, must begin now.
 
