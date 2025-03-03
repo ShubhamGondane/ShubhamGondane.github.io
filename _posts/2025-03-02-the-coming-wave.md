@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Dilemma of Progress
-date: 2025-03-03 06:00:00
+date: 2025-03-02 06:00:00
 description: Thoughts on the book - The Coming Wave
 tags: ai
 categories: book-reviews
