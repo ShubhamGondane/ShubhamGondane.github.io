@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Thoughts on the book - The Coming Wave
+title: The Dilemma of Progress
 date: 2025-03-03 06:00:00
 description: Thoughts on the book - The Coming Wave
 tags: ai
@@ -10,11 +10,11 @@ thumbnail: assets/img/2025-02-03_the_coming_wave/the_coming_wave_book.jpeg
 
 # The Dilemma of Progress: Reflecting on The Coming Wave
 
-<!-- <p align="center">
+<p align="center">
     <img src="../assets/img/2025-02-03_the_coming_wave/the_coming_wave_book.jpeg" alt="The Coming Wave">
     <br>
     <em><a href="https://a.co/d/4Qwlzob">The Coming Wave by Mustafa Suleyman and Michael Bhaskar</a></em>
-</p> -->
+</p>
 
 I recently finished **The Coming Wave** by Mustafa Suleyman and Michael Bhaskar, and I’d like to share some of my thoughts, particularly on the topic of AI. The book explores the four transformative forces of the coming wave: **Artificial Intelligence, Synthetic Biology, Quantum Computing**, and emerging energy sources like **Nuclear Fusion**. AI and quantum computing are dominating the conversation these days, with new LLM models being launched almost weekly and major tech giants like Amazon, Microsoft, and Google unveiling groundbreaking research in quantum computing.
 
