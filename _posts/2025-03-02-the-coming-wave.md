@@ -29,7 +29,7 @@ So far, we’ve experienced 24 major waves of innovation. Over a span of 10,000 
 
 ### The characteristics of the coming wave technologies
 
-1. **New technology has a potential to scale assymetrically.**
+**1. New technology has a potential to scale assymetrically.**
 
 - 1 Tweet -> Can spread an idea globally in an instant.
 - 1 Startup -> Just one breakthrough algorithm can build a massive global company.
@@ -37,17 +37,11 @@ So far, we’ve experienced 24 major waves of innovation. Over a span of 10,000 
 - 1 Bio experiment -> Could unleash a new pathogen, sparking a pandemic.
 - 1 Viable quantum computer -> Has the power to render all encryption protocols obsolete.
 
-2. **Hyper Evolution**
+**2. Hyper Evolution**
    These technologies are evolving rapidly and its difficult to contain these and their impact is global.
 
-3. **Omni Use**
+**3. Omni Use**
    These technologies have a broad spectrum of use cases, regardless of their original intentions and overtime the uses tend towards generality.
-
-<!-- <p align=center>
-<img src="../assets/img/2025-02-03_the_coming_wave/Use%20case%20spectrum.png" alt="Use case spectrum">
-<br>
-</img>
-</p> -->
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -55,7 +49,7 @@ So far, we’ve experienced 24 major waves of innovation. Over a span of 10,000 
     </div>
 </div>
 
-4. **Autonomy**
+**4. Autonomy**
    Every iteration of these technologies make them more autonomous.
 
 ### Unstoppable incentives
@@ -136,12 +130,6 @@ As AI continues to integrate into both software and genetic engineering, the lin
 ## The Containment Plan
 
 Suleyman's **containment plan for the coming wave of technological challenges** offers a thorough, multi-faceted strategy for managing potentially disruptive technologies such as AI and biotechnology. This is a highly complex subject that warrants a dedicated post of its own. This is in itself a very complex topic that deserves a separate post on its own. For now, the visual below offers a broad overview of the key elements of the containment plan, which will be explored in greater detail later.
-
-<!-- <p align=center>
-<img src="../assets/img/2025-02-03_the_coming_wave/The%20Containment%20Plan.png" alt="Containment plan">
-<br>
-</img>
-</p> -->
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
