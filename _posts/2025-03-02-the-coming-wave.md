@@ -5,12 +5,12 @@ date: 2025-03-02 06:00:00
 description: Thoughts on the book - The Coming Wave
 tags: ai
 categories: book-reviews
-thumbnail: assets/img/2025-02-03_the_coming_wave/the_coming_wave_book.jpeg
+thumbnail: assets/img/2025-02-03_the_coming_wave/the_coming_wave.png
 ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/2025-02-03_the_coming_wave/the_coming_wave_book.jpeg" title="The Coming Wave" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/2025-02-03_the_coming_wave/the_coming_wave.png" title="The Coming Wave" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
