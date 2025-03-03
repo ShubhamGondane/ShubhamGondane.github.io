@@ -30,9 +30,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-thoughts-on-the-book-the-coming-wave",
+        },{id: "post-the-dilemma-of-progress",
       
-        title: "Thoughts on the book - The Coming Wave",
+        title: "The Dilemma of Progress",
       
       description: "Thoughts on the book - The Coming Wave",
       section: "Posts",
