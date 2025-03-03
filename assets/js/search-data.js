@@ -41,17 +41,6 @@ ninja.data = [{
           window.location.href = "/blog/2025/the-coming-wave/";
         
       },
-    },{id: "post-the-dilemma-of-progress-reflecting-on-the-coming-wave",
-      
-        title: "The Dilemma of Progress - Reflecting on The Coming Wave",
-      
-      description: "Thoughts on the book - The Coming Wave",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2025/the-coming-wave-2/";
-        
-      },
     },{id: "post-from-siloed-systems-to-unified-platforms-exploring-the-lakehouse-revolution",
       
         title: 'From Siloed Systems to Unified Platforms: Exploring the Lakehouse Revolution <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
@@ -83,17 +72,6 @@ ninja.data = [{
       handler: () => {
         
           window.open("https://shubhamgondane.substack.com/p/data-engineering-cost-optimization", "_blank");
-        
-      },
-    },{id: "post-a-post-with-formatting-and-links",
-      
-        title: "a post with formatting and links",
-      
-      description: "march &amp; april, looking forward to summer",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2015/formatting-and-links/";
         
       },
     },{id: "news-a-simple-inline-announcement",
