@@ -56,4 +56,5 @@ jobs:
             --exclude-path _posts/2023-04-24-videos.md
             --exclude 'https://www.reuters.com/technology/chinas-deepseek-sets-off-ai-market-rout-2025-01-27/'
             --exclude 'https://www.reuters.com/technology/india-announces-12-bln-investment-ai-projects-2024-03-07/'
+            --exclude 'https://techcrunch.com/2025/01/21/openai-teams-up-with-softbank-and-oracle-on-50b-data-center-project/'
             --verbose --no-progress './**/*.md' './**/*.html'
