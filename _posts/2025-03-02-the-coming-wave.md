@@ -49,6 +49,12 @@ So far, we’ve experienced 24 major waves of innovation. Over a span of 10,000 
 </img>
 </p> -->
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2025-02-03_the_coming_wave/Use_case_spectrum.png" title="The Use Case Spectrum" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 4. **Autonomy**
    Every iteration of these technologies make them more autonomous.
 
@@ -94,6 +100,15 @@ Even the GOAT, Karpathy, highlights these limitations in his latest YouTube vide
 </img>
 </p> -->
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2025-02-03_the_coming_wave/strawberry_fail.png" title="Strawberry LLM Fail" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Even latest models such as Gemini 2.0 fail
+</div>
+
 I feel that companies are incentivized to say AGI is here or close to raise funding or to justify the billions of $ spent in capital expenditure as they chase bigger and bigger models.
 
 ### My worries about AI
@@ -127,6 +142,12 @@ Suleyman's **containment plan for the coming wave of technological challenges** 
 <br>
 </img>
 </p> -->
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2025-02-03_the_coming_wave/The_Containment_Plan.png" title="The Containment Plan" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 Ultimately, **The Coming Wave** paints a stark, yet vital, picture of the technological future we're hurtling towards. As Mustafa Suleyman argues, the characteristics of these powerful technologies, coupled with the relentless incentives driving their development, particularly evident in the rapid evolution of AI, present us with unprecedented challenges. While the potential benefits are undeniable, the risks—the erosion of control, the potential for misuse, and the sheer scale of societal disruption—cannot be ignored. **The Containment Plan** offers a framework for navigating this turbulent landscape, but its success hinges on a collective commitment to proactive governance, ethical development, and a fundamental shift in how we perceive and manage technological progress. **Frankly, given the current geopolitical climate and the disparate motivations of those driving technological advancement, this level of unified, proactive action feels like a monumental, perhaps even impossible, undertaking**. Yet, the wave is coming, and whether it washes over us or carries us forward depends entirely on the choices we make today. The conversation, and more importantly, the action, must begin now.
 
