@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thoughts on the book - The Coming Wave
-date: 2025-03-04 06:00:00
+date: 2025-03-03 06:00:00
 description: Thoughts on the book - The Coming Wave
 tags: ai
 categories: book-reviews
