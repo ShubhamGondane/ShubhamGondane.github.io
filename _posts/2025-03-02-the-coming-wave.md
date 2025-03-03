@@ -8,10 +8,8 @@ categories: book-reviews
 thumbnail: assets/img/2025-02-03_the_coming_wave/the_coming_wave_book.jpeg
 ---
 
-# The Dilemma of Progress: Reflecting on The Coming Wave
-
 <p align="center">
-    <img src="../assets/img/2025-02-03_the_coming_wave/the_coming_wave_book.jpeg" alt="The Coming Wave">
+    <img src="assets/img/2025-02-03_the_coming_wave/the_coming_wave_book.jpeg" alt="The Coming Wave">
     <br>
     <em><a href="https://a.co/d/4Qwlzob">The Coming Wave by Mustafa Suleyman and Michael Bhaskar</a></em>
 </p>
@@ -30,11 +28,11 @@ So far, we’ve experienced 24 major waves of innovation. Over a span of 10,000 
 - 1 Bio experiment -> Could unleash a new pathogen, sparking a pandemic.
 - 1 Viable quantum computer -> Has the power to render all encryption protocols obsolete.
 
-2.  **Hyper Evolution**
-    These technologies are evolving rapidly and its difficult to contain these and their impact is global.
+2. **Hyper Evolution**
+   These technologies are evolving rapidly and its difficult to contain these and their impact is global.
 
-3.  **Omni Use**
-    These technologies have a broad spectrum of use cases, regardless of their original intentions and overtime the uses tend towards generality.
+3. **Omni Use**
+   These technologies have a broad spectrum of use cases, regardless of their original intentions and overtime the uses tend towards generality.
 
 <!-- <p align=center>
 <img src="../assets/img/2025-02-03_the_coming_wave/Use%20case%20spectrum.png" alt="Use case spectrum">
