@@ -5,6 +5,7 @@ date: 2025-03-04 06:00:00
 description: Thoughts on the book - The Coming Wave
 tags: AI
 categories: book-reviews
+thumbnail: assets/img/2025-02-03_the_coming_wave/the_coming_wave_book.jpeg
 ---
 
 # The Dilemma of Progress: Reflecting on The Coming Wave
