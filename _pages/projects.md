@@ -5,7 +5,7 @@ permalink: /projects/
 description: A collection of half-baked side projects and fun stuff.
 nav: true
 nav_order: 3
-display_categories: [sideproject, fun]
+display_categories: [side-project, fun]
 horizontal: false
 ---
 

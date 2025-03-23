@@ -3,13 +3,13 @@ layout: page
 title: Automated OCR QC System
 description: Building a Robust OCR Quality Control System for Scanned Drilling Reports in Python.
 importance: 1
-category: sideproject
+category: side-project
 related_publications: false
 ---
 
 ## Introduction
 
-Optical Character Recognition (OCR) is powerful but imperfect. In this article, I'll walk through how we built a comprehensive quality control system for OCR output that helps identify potential issues and determines when manual review is needed.
+Optical Character Recognition (OCR) is powerful but imperfect. In this article, I'll walk through how I built a comprehensive quality control system for OCR output that helps identify potential issues and determines when manual review is needed.
 
 ## System Overview
 
