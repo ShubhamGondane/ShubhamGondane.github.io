@@ -8,9 +8,11 @@ related_publications: false
 ---
 
 ## Introduction
+
 Optical Character Recognition (OCR) is powerful but imperfect. In this article, I'll walk through how we built a comprehensive quality control system for OCR output that helps identify potential issues and determines when manual review is needed.
 
 ## System Overview
+
 The OCR QC system performs multiple levels of validation:
 
 - Document-level JSON validation
@@ -19,6 +21,7 @@ The OCR QC system performs multiple levels of validation:
 - Spatial consistency checks
 
 ### Project Structure
+
 ```
 OCR_QC/
 ├── ocr_qc_main.py          # Main entry point
@@ -30,17 +33,22 @@ OCR_QC/
 ```
 
 ## Core Components
+
 ### JSON Validation
+
 The first step is validating the OCR output JSON:
+
 ```
 qc_results['document_is_valid_json'] = is_valid_json(json_data)
 if json_schema:
     schema_errors = validate_json_schema(json_data, json_schema)
     qc_results['document_json_schema_validation'] = str(schema_errors) if schema_errors else "Schema Valid"
 ```
+
 This ensures the OCR output follows our expected structure before deeper analysis.
 
 ### Content Quality Metrics
+
 For each page, we analyze several content quality indicators:
 
 - Lexicon Word Ratio: Percentage of words found in a standard dictionary
@@ -57,11 +65,13 @@ if page_text_content:
 ```
 
 ### Table Analysis
+
 The system performs specialized checks for tabular content:
 
 - Table structure validation (rows/columns)
 - Cell content quality assessment
 - Confidence metrics specific to table cells
+
 ```
 for table_index, table_data in enumerate(document_tables_data):
     table_cell_contents = [cell.get('content', '') for cell in table_data.get('cells', [])]
@@ -72,10 +82,12 @@ for table_index, table_data in enumerate(document_tables_data):
 ```
 
 ### Output and Reporting
+
 Results are saved in two formats:
 
 - Detailed JSON reports containing all metrics
 - Plain text review logs for files requiring manual attention
+
 ```
 review_needed, review_reasons = needs_manual_review(qc_results)
 if review_needed:
@@ -85,20 +97,21 @@ if review_needed:
 ```
 
 ## Key Features
+
 - Modular Design: Each quality check is a separate function, making the system easy to extend
 - Configurable: JSON schema and entity patterns can be customized
 - Batch Processing: Can process multiple files with progress tracking
 - Detailed Reporting: Comprehensive metrics at document, page, and table levels
 
-
 ## Future Improvements
+
 - Improve spatial order consistency checks (currently skipped due to low accuracy)
 - Add numeric coherence validation
 - Enhance formatting irregularity detection
 - Add support for more document types and OCR engines
 
 ## Conclusion
+
 This OCR QC system provides a robust framework for validating OCR output and identifying potential issues requiring human review. By combining multiple validation strategies at different levels, it helps ensure OCR accuracy while minimizing the need for manual intervention.
 
 The complete code is organized into several Python modules, making it easy to maintain and extend. The system can be integrated into larger document processing pipelines or used as a standalone quality control tool.
-
