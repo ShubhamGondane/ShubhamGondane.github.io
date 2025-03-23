@@ -30,9 +30,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-building-with-ai",
+        },{id: "post-building-with-genai",
       
-        title: "Building with AI",
+        title: "Building with GenAI",
       
       description: "How I Used Generative AI for My Latest Side Project",
       section: "Posts",
