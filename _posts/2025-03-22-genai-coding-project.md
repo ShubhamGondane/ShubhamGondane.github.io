@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Building with AI
+title: Building with GenAI
 date: 2025-03-22 06:00:00
 description: How I Used Generative AI for My Latest Side Project
 tags: ai
