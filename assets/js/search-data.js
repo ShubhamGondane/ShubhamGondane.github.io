@@ -90,6 +90,11 @@ ninja.data = [{
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-automated-ocr-qc-system",
+          title: 'Automated OCR QC System',
+          description: "Building a Robust OCR Quality Control System for Scanned Drilling Reports in Python.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ocr_qc/";
             },},{
         id: 'social-email',
         title: 'email',
