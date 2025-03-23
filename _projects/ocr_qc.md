@@ -22,7 +22,7 @@ The OCR QC system performs multiple levels of validation:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/automated_ocr_system2.png" title="Strawberry LLM Fail" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/automated_ocr_system2.png" title="High Level Overview of the System" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
