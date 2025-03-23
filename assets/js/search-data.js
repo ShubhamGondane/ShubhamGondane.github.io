@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-the-dilemma-of-progress",
+        },{id: "post-building-with-ai",
+      
+        title: "Building with AI",
+      
+      description: "How I Used Generative AI for My Latest Side Project",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/genai-coding-project/";
+        
+      },
+    },{id: "post-the-dilemma-of-progress",
       
         title: "The Dilemma of Progress",
       
