@@ -85,12 +85,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-automated-ocr-qc-system",
+          section: "News",},{id: "projects-automated-ocr-qc-system",
           title: 'Automated OCR QC System',
           description: "Building a Robust OCR Quality Control System for Scanned Drilling Reports in Python.",
           section: "Projects",handler: () => {
