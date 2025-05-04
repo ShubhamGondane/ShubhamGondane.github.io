@@ -9,9 +9,10 @@ thumbnail:
 ---
 
 ### Introduction
-Netflix is known for having some of the most advanced software systems in the world, built by top-tier engineering talent. Over the years, I’ve followed their work through the [Netflix TechBlog](https://netflixtechblog.com/tagged/architecture), especially their data engineering efforts. As a data engineer myself, I’ve always been curious to see how they build at scale. Last year, Netflix launched the inaugural Data Engineering Open Forum—a one-day conference featuring technical talks from their team and opportunities to network with industry professionals.  I didn’t get a chance to attend last year, so I was determined to make it this time. This year’s conference was held on April 23 at their Los Gatos office. Huge thanks to Xinran Waibel, the driving force behind the event, and the rest of the organizing team for making it happen.
 
-I’m not sure how last year’s turnout was, but this year many people confirmed that the attendance was much higher.  Registration opened on April 1, and I think all the spots were filled by the end of the day. This is a clear sign of growing interest in the conference and data engineering. The organizers had more sessions this year so they setup parallel sessions and asked the attendees to choose which talk they wanted to attend. On the day of the conference, I don't think many of us remembered which session we had signed up for. 
+Netflix is known for having some of the most advanced software systems in the world, built by top-tier engineering talent. Over the years, I’ve followed their work through the [Netflix TechBlog](https://netflixtechblog.com/tagged/architecture), especially their data engineering efforts. As a data engineer myself, I’ve always been curious to see how they build at scale. Last year, Netflix launched the inaugural Data Engineering Open Forum—a one-day conference featuring technical talks from their team and opportunities to network with industry professionals. I didn’t get a chance to attend last year, so I was determined to make it this time. This year’s conference was held on April 23 at their Los Gatos office. Huge thanks to Xinran Waibel, the driving force behind the event, and the rest of the organizing team for making it happen.
+
+I’m not sure how last year’s turnout was, but this year many people confirmed that the attendance was much higher. Registration opened on April 1, and I think all the spots were filled by the end of the day. This is a clear sign of growing interest in the conference and data engineering. The organizers had more sessions this year so they setup parallel sessions and asked the attendees to choose which talk they wanted to attend. On the day of the conference, I don't think many of us remembered which session we had signed up for.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -23,12 +24,14 @@ I’m not sure how last year’s turnout was, but this year many people confirme
 </div>
 
 ### Sessions
+
 The day kicked off with opening remarks, a talk on RDG, and a closing panel—sessions that everyone attended together. The rest of the day was filled with parallel sessions, where we had to choose which ones to attend.
- 
+
 #### Opening Remarks and RDG
+
 Xinran and Ian Yohai, VP of Commerce Data Science & Engineering, gave the welcome address. They shared an overview of the Netflix data ecosystem and highlighted some of the exciting areas the company is currently exploring.
 
-Netflix architecture is based on microservices (service decomposition + data isolation) which resulted in separation of concerns, which ultimately lead to separation of data. The first session after the opening remarks was the **How Netflix built a Real-Time Distributed Graph (RDG) for Internet Scale** which was built to provide an intuitive data model for complex relationships to handle global data volume in near real time. The architecture consisted of - Kafka, Flink, Data Mesh (Not the architecture framework) - Internal platform for moving data between Neflix systems at scale, Key-Value data abstraction layer on top of Cassandra and gRPCs. 
+Netflix architecture is based on microservices (service decomposition + data isolation) which resulted in separation of concerns, which ultimately lead to separation of data. The first session after the opening remarks was the **How Netflix built a Real-Time Distributed Graph (RDG) for Internet Scale** which was built to provide an intuitive data model for complex relationships to handle global data volume in near real time. The architecture consisted of - Kafka, Flink, Data Mesh (Not the architecture framework) - Internal platform for moving data between Neflix systems at scale, Key-Value data abstraction layer on top of Cassandra and gRPCs.
 
 This was one of my most favorite sessions of the day. I am waiting for them to share the recordings and the decks so that I can dive deep into this one. They also mentioned they will be starting a blog series to explain more about the RDGs.
 
@@ -65,18 +68,20 @@ Having seen this issue at work where different groups defined the same metrics i
 </div>
 
 #### The Panel
-The final session of the day was a panel discussion on **The Future of Data Engineering** featuring promiment engineers and leaders like 
+
+The final session of the day was a panel discussion on **The Future of Data Engineering** featuring promiment engineers and leaders like
 Inna Giguere (Director, Content and Studio Data Engineering at Netflix), Ryan Blue (Technical Staff at Databricks), Jerry Wang (Data Infrastructure Senior Leader at Airbnb). WWhile I’m waiting for the recording to revisit all the details, one theme that stood out was the emphasis on balancing technical curiosity with solid fundamentals. As the panelists reflected on their careers, they all highlighted how staying up-to-date with new technologies—while staying grounded in core concepts like data modeling—has been key to their growth.
 
 I’m definitely looking forward to reviewing the session again and taking more detailed notes once the recording is out.
 
 ### Conclusion
 
-Overall, Netflix did a fantastic job organizing the event. The talks were well-paced, with thoughtfully scheduled breaks that made the day feel balanced and energizing. Unlike many conferences that lean heavily into product pitches, this one stayed true to its purpose—uniting data engineers for a day filled with knowledge-sharing, learning, and networking. While the networking session at the end was great, there were plenty of other chances to meet people throughout the day—morning, lunch, and after the event. I connected with folks from Netflix and other companies, and we’ve stayed in touch on LinkedIn. 
+Overall, Netflix did a fantastic job organizing the event. The talks were well-paced, with thoughtfully scheduled breaks that made the day feel balanced and energizing. Unlike many conferences that lean heavily into product pitches, this one stayed true to its purpose—uniting data engineers for a day filled with knowledge-sharing, learning, and networking. While the networking session at the end was great, there were plenty of other chances to meet people throughout the day—morning, lunch, and after the event. I connected with folks from Netflix and other companies, and we’ve stayed in touch on LinkedIn.
 
 If I had one suggestion for improvement, it would be to include a short 1–2 line description for each talk in the agenda—just enough to help attendees choose sessions more effectively.
 
 I’m looking forward to revisiting the following sessions that I missed once the recordings are available.
+
 - Apache Gluten: Revolutionizing Data Processing Efficiency on Apache Spark
 - Delivering Scalable Insights for a New Product Launch: Games at Netflix
 - Making Lakehouse Table Formats & Catalogs work for your data using Apache XTable (Incubating)
@@ -95,8 +100,8 @@ P.S. Almost forgot to mention—at the end of the day, they were giving away fre
     Designing Data Intensive Applications by Martin Kleppmann
 </div>
 
-
 ### References:
+
 - https://2025dataengineeringopenforumat.splashthat.com
 - https://netflixtechblog.com
 - https://github.com/DataJunction/dj
