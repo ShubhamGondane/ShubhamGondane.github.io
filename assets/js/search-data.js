@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-building-with-genai",
+        },{id: "post-netflix-data-engineering-open-forum-2025",
+      
+        title: "Netflix Data Engineering Open Forum 2025",
+      
+      description: "My experience at the Netflix Data Engineering Open Forum 2025.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/netflix-data-conference/";
+        
+      },
+    },{id: "post-building-with-genai",
       
         title: "Building with GenAI",
       
