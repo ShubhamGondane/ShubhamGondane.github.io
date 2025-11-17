@@ -73,7 +73,12 @@ module ExternalPosts
       src['posts'].each do |post|
         puts "...fetching #{post['url']}"
         content = fetch_content_from_url(post['url'])
-        content[:published] = parse_published_date(post['published_date'])
+        # allow optional overrides from the config (useful when the remote site
+        # blocks scraping or returns an interstitial like Cloudflare "Just a moment...")
+        content[:published] = parse_published_date(post['published_date']) if post['published_date']
+        content[:title] = post['title'] if post['title']
+        content[:summary] = post['summary'] if post['summary']
+
         create_document(site, src['name'], post['url'], content)
       end
     end

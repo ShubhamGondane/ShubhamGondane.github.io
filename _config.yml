@@ -87,7 +87,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: My writings # blog_name will be displayed in your blog page
-blog_description: A blog about my data and things I find interesting # blog_description will be displayed in your blog page
+blog_description: A blog about data engineering and things I find interesting # blog_description will be displayed in your blog page
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -130,8 +130,10 @@ external_sources:
     posts:
       - url: https://dataengineerthings.substack.com/p/data-engineer-things-newsletter-23
         published_date: 2025-09-09
+        title: "Data Engineer Things Newsletter #23"
       - url: https://dataengineerthings.substack.com/p/data-engineer-things-newsletter-21
         published_date: 2025-07-15
+        title: "Data Engineer Things Newsletter #21"
 
   # - name: Google Blog
   #   posts:
