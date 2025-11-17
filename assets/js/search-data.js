@@ -49,7 +49,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.open("https://dataengineerthings.substack.com/p/data-engineer-things-newsletter-23", "_blank");
+          window.open("https://dataengineerthings.substack.com/p/data-engineer-things-newsletter-21", "_blank");
         
       },
     },{id: "post-automating-data-pipeline-recovery",
