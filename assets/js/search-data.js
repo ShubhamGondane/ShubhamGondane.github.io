@@ -30,7 +30,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-automating-data-pipeline-recovery",
+        },{id: "post-just-a-moment",
+      
+        title: 'Just a moment... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://dataengineerthings.substack.com/p/data-engineer-things-newsletter-23", "_blank");
+        
+      },
+    },{id: "post-just-a-moment",
+      
+        title: 'Just a moment... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://dataengineerthings.substack.com/p/data-engineer-things-newsletter-23", "_blank");
+        
+      },
+    },{id: "post-automating-data-pipeline-recovery",
       
         title: 'Automating Data Pipeline Recovery <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
@@ -38,7 +60,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.open("https://blog.det.life/automating-data-pipeline-recovery-366eeaf60154?source=rss-b2864b4119c4------2", "_blank");
+          window.open("https://blog.dataengineerthings.org/automating-data-pipeline-recovery-366eeaf60154?source=rss-b2864b4119c4------2", "_blank");
         
       },
     },{id: "post-netflix-data-engineering-open-forum-2025",
@@ -82,7 +104,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.open("https://blog.det.life/from-siloed-systems-to-unified-platforms-exploring-the-lakehouse-revolution-7b590042e3fc?source=rss-b2864b4119c4------2", "_blank");
+          window.open("https://blog.dataengineerthings.org/from-siloed-systems-to-unified-platforms-exploring-the-lakehouse-revolution-7b590042e3fc?source=rss-b2864b4119c4------2", "_blank");
         
       },
     },{id: "post-cost-optimization-part-2",
