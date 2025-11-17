@@ -126,6 +126,13 @@ external_sources:
     rss_url: https://medium.com/@shubhamgondane95/feed
   - name: substack.com
     rss_url: https://shubhamgondane.substack.com/feed
+  - name: Data Engineering things
+    posts:
+      - url: https://dataengineerthings.substack.com/p/data-engineer-things-newsletter-23
+        published_date: 2025-09-09
+      - url: https://dataengineerthings.substack.com/p/data-engineer-things-newsletter-23
+        published_date: 2025-07-15
+      
   # - name: Google Blog
   #   posts:
   #     - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
