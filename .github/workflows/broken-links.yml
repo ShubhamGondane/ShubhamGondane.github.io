@@ -59,4 +59,5 @@ jobs:
             --exclude 'https://techcrunch.com/2025/01/21/openai-teams-up-with-softbank-and-oracle-on-50b-data-center-project/'
             --exclude 'https://www.wsj.com/tech/ai/eu-pledges-200-billion-in-ai-spending-in-bid-to-catch-up-with-u-s-china-7bf82ab5'
             --exclude 'https://2025dataengineeringopenforumat.splashthat.com'
+            --exclude 'https://netflixtechblog.com/'
             --verbose --no-progress './**/*.md' './**/*.html'
