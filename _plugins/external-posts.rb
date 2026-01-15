@@ -78,6 +78,15 @@ module ExternalPosts
         content[:published] = parse_published_date(post['published_date']) if post['published_date']
         content[:title] = post['title'] if post['title']
         content[:summary] = post['summary'] if post['summary']
+        
+        # if title was overridden but content is empty/generic, try alternative content extraction
+        if post['title'] && (content[:content].nil? || content[:content].empty? || content[:content] == 'Just a moment...')
+          puts "...retrying content extraction for #{post['url']}"
+          content = fetch_content_from_url_advanced(post['url'])
+          content[:title] = post['title']
+          content[:published] = parse_published_date(post['published_date']) if post['published_date']
+          content[:summary] = post['summary'] if post['summary']
+        end
 
         create_document(site, src['name'], post['url'], content)
       end
@@ -114,5 +123,33 @@ module ExternalPosts
       }
     end
 
+    def fetch_content_from_url_advanced(url)
+      # Try fetching with a different approach, target Substack article content specifically
+      html = HTTParty.get(url, headers: { 'User-Agent' => 'Mozilla/5.0 (compatible; Jekyll/3.0)' }).body
+      parsed_html = Nokogiri::HTML(html)
+
+      title = parsed_html.at('head title')&.text.strip || ''
+      description = parsed_html.at('head meta[property="og:description"]')&.attr('content')
+      description ||= parsed_html.at('head meta[name="description"]')&.attr('content')
+
+      # For Substack articles, try to find article body content
+      body_content = ''
+      # Look for Substack article container
+      article = parsed_html.at('article')
+      if article
+        body_content = article.search('p').map { |e| e.text.strip }.select { |t| !t.empty? }.join(' ')
+      else
+        # Fallback to generic paragraph extraction
+        body_content = parsed_html.search('p').map { |e| e.text.strip }.select { |t| !t.empty? }.join(' ')
+      end
+
+      {
+        title: title,
+        content: body_content || '',
+        summary: description || ''
+      }
+    end
+
   end
 end
+
