@@ -109,3 +109,4 @@ jobs:
         with:
           folder: _site
           clean: true
+          token: ${{ secrets.GITHUB_TOKEN }}
