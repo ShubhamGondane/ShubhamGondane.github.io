@@ -157,6 +157,9 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:title/
   news:
     defaults:
       layout: post
