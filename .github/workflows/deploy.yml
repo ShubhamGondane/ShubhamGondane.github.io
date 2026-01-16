@@ -95,6 +95,10 @@ jobs:
           bundle install
           export JEKYLL_ENV=production
           bundle exec jekyll build
+          echo "Checking for generated posts..."
+          find _site/blog -name "*data-engineer*" -type d 2>/dev/null || echo "No data-engineer posts found"
+          ls -la _site/blog/2026/ 2>/dev/null || echo "No 2026 directory"
+          ls -la _site/blog/2025/ 2>/dev/null || echo "No 2025 directory"
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
@@ -104,3 +108,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
+          clean: true
