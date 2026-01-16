@@ -59,6 +59,7 @@ module ExternalPosts
       doc = Jekyll::Document.new(
         path, { :site => site, :collection => site.collections['posts'] }
       )
+      doc.data['layout'] = 'post'
       doc.data['external_source'] = source_name
       doc.data['title'] = content[:title]
       doc.data['feed_content'] = content[:content]
