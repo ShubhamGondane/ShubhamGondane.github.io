@@ -23,11 +23,17 @@ group :jekyll_plugins do
     gem 'jemoji'
 
     gem 'classifier-reborn'  # used for content categorization during the build
+    gem 'feedjira'           # used by external-posts plugin
+    gem 'httparty'           # used by external-posts plugin
+    gem 'nokogiri'           # used by external-posts plugin for HTML parsing
+end
+
+# Gems for development or external data fetching (outside :jekyll_plugins)
+group :other_plugins do
     gem 'css_parser'
-    gem 'feedjira'
-    gem 'httparty'
-    gem 'nokogiri'
     gem 'observer'       # used by jekyll-scholar
     gem 'ostruct'        # used by jekyll-twitter-plugin
     gem 'terser'         # used by jekyll-terser
+    # gem 'unicode_utils' -- should be already installed by jekyll
+    # gem 'webrick' -- should be already installed by jekyll
 end
